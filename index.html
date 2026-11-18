@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>vh.compradeouro — Compra de ouro em Brasília/DF</title>
+<meta name="description" content="Compramos ouro com transparência e avaliação especializada. Simule o valor do seu ouro e agende sua avaliação na Candangolândia ou no Núcleo Bandeirante, Brasília/DF.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div style="width: 100%; min-height: 100vh; background: #FFFFFF">
+
+<header class="hdr">
+<div class="wrap hdr-in">
+<a class="logo" href="#inicio">vh<span>.</span>compradeouro</a>
+<nav class="nav" aria-label="Principal">
+<a class="navlink" href="#simulador">Simulador</a>
+<a class="navlink" href="#cotacao">Valor do ouro hoje</a>
+<a class="navlink" href="#agendamento">Agendamento</a>
+</nav>
+<a class="btn hdr-cta js-wa" href="#" target="_blank" rel="noopener noreferrer">Agendar avaliação</a>
+<button class="menu-btn" id="menuBtn" type="button" aria-label="Abrir menu" aria-expanded="false">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M4 8h16M4 16h16"></path></svg>
+</button>
+</div>
+<nav class="mnav" id="mnav" aria-label="Menu móvel" hidden>
+<a class="navlink" href="#simulador">Simulador</a>
+<a class="navlink" href="#cotacao">Valor do ouro hoje</a>
+<a class="navlink" href="#agendamento">Agendamento</a>
+<a class="btn js-wa" href="#" target="_blank" rel="noopener noreferrer">Agendar avaliação</a>
+</nav>
+</header>
+
+<section id="inicio">
+<div class="wrap hero-grid">
+<div>
+<p class="kicker in">Compra de ouro</p>
+<h1 class="h1 in d1">Seu ouro tem valor. <em>Descubra quanto ele pode valer.</em></h1>
+<p class="hero-sub in d2">Compramos ouro com transparência, avaliação especializada e valores baseados nas cotações de referência do mercado.</p>
+<div class="ctas in d3">
+<a class="btn" href="#simulador">Faça uma simulação</a>
+<a class="btn btn-line js-wa" href="#" target="_blank" rel="noopener noreferrer">Agende sua avaliação</a>
+</div>
+</div>
+<div class="stage" id="stage" role="img" aria-label="Duas alianças de ouro em 3D, uma lisa escovada e outra com pedras. Arraste ou mova o cursor para girar.">
+<div class="floor" aria-hidden="true"></div>
+<div class="scene" id="scene" aria-hidden="true">
+<div class="ring r1"><div class="seg so" style="--a: 0.0deg; width: 38px; height: 16.2px; margin: -8.1px 0 0 -19.0px; transform: rotateX(0.0deg) translateZ(86px)"></div><div class="seg so" style="--a: 10.0deg; width: 38px; height: 16.2px; margin: -8.1px 0 0 -19.0px; transform: rotateX(10.0deg) translateZ(86px)"></div><div class="seg so" style="--a: 20.0deg; width: 38px; height: 16.2px; margin: -8.1px 0 0 -19.0px; transform: rotateX(20.0deg) translateZ(86px)"></div><div class="seg so" style="--a: 30.0deg; width: 38px; height: 16.2px; margin: -8.1px 0 0 -19.0px; transform: rotateX(30.0deg) translateZ(86px)"></div><div class="seg so" style="--a: 40.0deg; width: 38px; height: 16.2px; margin: -8.1px 0 0 -19.0px; transform: rotateX(40.0deg) translateZ(86px)"></div><div class="seg so" style="--a: 50.0deg; width: 38px; height: 16.2px; margin: -8.1px 0 0 -19.0px; transform: rotateX(50.0deg) translateZ(86px)"></div><div class="seg so" style="--a: 60.0deg; width: 38px; height: 16.2px; margin: -8.1px 0 0 -19.0px; transform: rotateX(60.0deg) translateZ(86px)"></div><div class="seg so" style="--a: 70.0deg; width: 38px; height: 16.2px; margin: -8.1px 0 0 -19.0px; transform: rotateX(70.0deg) translateZ(86px)"></div><div class="seg so" style="--a: 80.0deg; width: 38px; height: 16.2px; margin: -8.1px 0 0 -19.0px; transform: rotateX(80.0deg) translateZ(86px)"></div><div class="seg so" style="--a: 90.0deg; width: 38px; height: 16.2px; margin: -8.1px 0 0 -19.0px; transform: rotateX(90.0deg) translateZ(86px)"></div><div class="seg so" style="--a: 100.0deg; width: 38px; height: 16.2px; margin: -8.1px 0 0 -19.0px; transform: rotateX(100.0deg) translateZ(86px)"></div><div class="seg so" style="--a: 110.0deg; width: 38px; height: 16.2px; margin: -8.1px 0 0 -19.0px; transform: rotateX(110.0deg) translateZ(86px)"></div><div class="seg so" style="--a: 120.0deg; width: 38px; height: 16.2px; margin: -8.1px 0 0 -19.0px; transform: rotateX(120.0deg) translateZ(86px)"></div><div class="seg so" style="--a: 130.0deg; width: 38px; height: 16.2px; margin: -8.1px 0 0 -19.0px; transform: rotateX(130.0deg) translateZ(86px)"></div><div class="seg so" style="--a: 140.0deg; width: 38px; height: 16.2px; margin: -8.1px 0 0 -19.0px; transform: rotateX(140.0deg) translateZ(86px)"></div><div class="seg so" style="--a: 150.0deg; width: 38px; height: 16.2px; margin: -8.1px 0 0 -19.0px; transform: rotateX(150.0deg) translateZ(86px)"></div><div class="seg so" style="--a: 160.0deg; width: 38px; height: 16.2px; margin: -8.1px 0 0 -19.0px; transform: rotateX(160.0deg) translateZ(86px)"></div><div class="seg so" style="--a: 170.0deg; width: 38px; height: 16.2px; margin: -8.1px 0 0 -19.0px; transform: rotateX(170.0deg) translateZ(86px)"></div><div class="seg so" style="--a: 180.0deg; width: 38px; height: 16.2px; margin: -8.1px 0 0 -19.0px; transform: rotateX(180.0deg) translateZ(86px)"></div><div class="seg so" style="--a: 190.0deg; width: 38px; height: 16.2px; margin: -8.1px 0 0 -19.0px; transform: rotateX(190.0deg) translateZ(86px)"></div><div class="seg so" style="--a: 200.0deg; width: 38px; height: 16.2px; margin: -8.1px 0 0 -19.0px; transform: rotateX(200.0deg) translateZ(86px)"></div><div class="seg so" style="--a: 210.0deg; width: 38px; height: 16.2px; margin: -8.1px 0 0 -19.0px; transform: rotateX(210.0deg) translateZ(86px)"></div><div class="seg so" style="--a: 220.0deg; width: 38px; height: 16.2px; margin: -8.1px 0 0 -19.0px; transform: rotateX(220.0deg) translateZ(86px)"></div><div class="seg so" style="--a: 230.0deg; width: 38px; height: 16.2px; margin: -8.1px 0 0 -19.0px; transform: rotateX(230.0deg) translateZ(86px)"></div><div class="seg so" style="--a: 240.0deg; width: 38px; height: 16.2px; margin: -8.1px 0 0 -19.0px; transform: rotateX(240.0deg) translateZ(86px)"></div><div class="seg so" style="--a: 250.0deg; width: 38px; height: 16.2px; margin: -8.1px 0 0 -19.0px; transform: rotateX(250.0deg) translateZ(86px)"></div><div class="seg so" style="--a: 260.0deg; width: 38px; height: 16.2px; margin: -8.1px 0 0 -19.0px; transform: rotateX(260.0deg) translateZ(86px)"></div><div class="seg so" style="--a: 270.0deg; width: 38px; height: 16.2px; margin: -8.1px 0 0 -19.0px; transform: rotateX(270.0deg) translateZ(86px)"></div><div class="seg so" style="--a: 280.0deg; width: 38px; height: 16.2px; margin: -8.1px 0 0 -19.0px; transform: rotateX(280.0deg) translateZ(86px)"></div><div class="seg so" style="--a: 290.0deg; width: 38px; height: 16.2px; margin: -8.1px 0 0 -19.0px; transform: rotateX(290.0deg) translateZ(86px)"></div><div class="seg so" style="--a: 300.0deg; width: 38px; height: 16.2px; margin: -8.1px 0 0 -19.0px; transform: rotateX(300.0deg) translateZ(86px)"></div><div class="seg so" style="--a: 310.0deg; width: 38px; height: 16.2px; margin: -8.1px 0 0 -19.0px; transform: rotateX(310.0deg) translateZ(86px)"></div><div class="seg so" style="--a: 320.0deg; width: 38px; height: 16.2px; margin: -8.1px 0 0 -19.0px; transform: rotateX(320.0deg) translateZ(86px)"></div><div class="seg so" style="--a: 330.0deg; width: 38px; height: 16.2px; margin: -8.1px 0 0 -19.0px; transform: rotateX(330.0deg) translateZ(86px)"></div><div class="seg so" style="--a: 340.0deg; width: 38px; height: 16.2px; margin: -8.1px 0 0 -19.0px; transform: rotateX(340.0deg) translateZ(86px)"></div><div class="seg so" style="--a: 350.0deg; width: 38px; height: 16.2px; margin: -8.1px 0 0 -19.0px; transform: rotateX(350.0deg) translateZ(86px)"></div><div class="seg si" style="--a: 0.0deg; width: 38px; height: 15.0px; margin: -7.5px 0 0 -19.0px; transform: rotateX(0.0deg) translateZ(79px) rotateY(180deg)"></div><div class="seg si" style="--a: 10.0deg; width: 38px; height: 15.0px; margin: -7.5px 0 0 -19.0px; transform: rotateX(10.0deg) translateZ(79px) rotateY(180deg)"></div><div class="seg si" style="--a: 20.0deg; width: 38px; height: 15.0px; margin: -7.5px 0 0 -19.0px; transform: rotateX(20.0deg) translateZ(79px) rotateY(180deg)"></div><div class="seg si" style="--a: 30.0deg; width: 38px; height: 15.0px; margin: -7.5px 0 0 -19.0px; transform: rotateX(30.0deg) translateZ(79px) rotateY(180deg)"></div><div class="seg si" style="--a: 40.0deg; width: 38px; height: 15.0px; margin: -7.5px 0 0 -19.0px; transform: rotateX(40.0deg) translateZ(79px) rotateY(180deg)"></div><div class="seg si" style="--a: 50.0deg; width: 38px; height: 15.0px; margin: -7.5px 0 0 -19.0px; transform: rotateX(50.0deg) translateZ(79px) rotateY(180deg)"></div><div class="seg si" style="--a: 60.0deg; width: 38px; height: 15.0px; margin: -7.5px 0 0 -19.0px; transform: rotateX(60.0deg) translateZ(79px) rotateY(180deg)"></div><div class="seg si" style="--a: 70.0deg; width: 38px; height: 15.0px; margin: -7.5px 0 0 -19.0px; transform: rotateX(70.0deg) translateZ(79px) rotateY(180deg)"></div><div class="seg si" style="--a: 80.0deg; width: 38px; height: 15.0px; margin: -7.5px 0 0 -19.0px; transform: rotateX(80.0deg) translateZ(79px) rotateY(180deg)"></div><div class="seg si" style="--a: 90.0deg; width: 38px; height: 15.0px; margin: -7.5px 0 0 -19.0px; transform: rotateX(90.0deg) translateZ(79px) rotateY(180deg)"></div><div class="seg si" style="--a: 100.0deg; width: 38px; height: 15.0px; margin: -7.5px 0 0 -19.0px; transform: rotateX(100.0deg) translateZ(79px) rotateY(180deg)"></div><div class="seg si" style="--a: 110.0deg; width: 38px; height: 15.0px; margin: -7.5px 0 0 -19.0px; transform: rotateX(110.0deg) translateZ(79px) rotateY(180deg)"></div><div class="seg si" style="--a: 120.0deg; width: 38px; height: 15.0px; margin: -7.5px 0 0 -19.0px; transform: rotateX(120.0deg) translateZ(79px) rotateY(180deg)"></div><div class="seg si" style="--a: 130.0deg; width: 38px; height: 15.0px; margin: -7.5px 0 0 -19.0px; transform: rotateX(130.0deg) translateZ(79px) rotateY(180deg)"></div><div class="seg si" style="--a: 140.0deg; width: 38px; height: 15.0px; margin: -7.5px 0 0 -19.0px; transform: rotateX(140.0deg) translateZ(79px) rotateY(180deg)"></div><div class="seg si" style="--a: 150.0deg; width: 38px; height: 15.0px; margin: -7.5px 0 0 -19.0px; transform: rotateX(150.0deg) translateZ(79px) rotateY(180deg)"></div><div class="seg si" style="--a: 160.0deg; width: 38px; height: 15.0px; margin: -7.5px 0 0 -19.0px; transform: rotateX(160.0deg) translateZ(79px) rotateY(180deg)"></div><div class="seg si" style="--a: 170.0deg; width: 38px; height: 15.0px; margin: -7.5px 0 0 -19.0px; transform: rotateX(170.0deg) translateZ(79px) rotateY(180deg)"></div><div class="seg si" style="--a: 180.0deg; width: 38px; height: 15.0px; margin: -7.5px 0 0 -19.0px; transform: rotateX(180.0deg) translateZ(79px) rotateY(180deg)"></div><div class="seg si" style="--a: 190.0deg; width: 38px; height: 15.0px; margin: -7.5px 0 0 -19.0px; transform: rotateX(190.0deg) translateZ(79px) rotateY(180deg)"></div><div class="seg si" style="--a: 200.0deg; width: 38px; height: 15.0px; margin: -7.5px 0 0 -19.0px; transform: rotateX(200.0deg) translateZ(79px) rotateY(180deg)"></div><div class="seg si" style="--a: 210.0deg; width: 38px; height: 15.0px; margin: -7.5px 0 0 -19.0px; transform: rotateX(210.0deg) translateZ(79px) rotateY(180deg)"></div><div class="seg si" style="--a: 220.0deg; width: 38px; height: 15.0px; margin: -7.5px 0 0 -19.0px; transform: rotateX(220.0deg) translateZ(79px) rotateY(180deg)"></div><div class="seg si" style="--a: 230.0deg; width: 38px; height: 15.0px; margin: -7.5px 0 0 -19.0px; transform: rotateX(230.0deg) translateZ(79px) rotateY(180deg)"></div><div class="seg si" style="--a: 240.0deg; width: 38px; height: 15.0px; margin: -7.5px 0 0 -19.0px; transform: rotateX(240.0deg) translateZ(79px) rotateY(180deg)"></div><div class="seg si" style="--a: 250.0deg; width: 38px; height: 15.0px; margin: -7.5px 0 0 -19.0px; transform: rotateX(250.0deg) translateZ(79px) rotateY(180deg)"></div><div class="seg si" style="--a: 260.0deg; width: 38px; height: 15.0px; margin: -7.5px 0 0 -19.0px; transform: rotateX(260.0deg) translateZ(79px) rotateY(180deg)"></div><div class="seg si" style="--a: 270.0deg; width: 38px; height: 15.0px; margin: -7.5px 0 0 -19.0px; transform: rotateX(270.0deg) translateZ(79px) rotateY(180deg)"></div><div class="seg si" style="--a: 280.0deg; width: 38px; height: 15.0px; margin: -7.5px 0 0 -19.0px; transform: rotateX(280.0deg) translateZ(79px) rotateY(180deg)"></div><div class="seg si" style="--a: 290.0deg; width: 38px; height: 15.0px; margin: -7.5px 0 0 -19.0px; transform: rotateX(290.0deg) translateZ(79px) rotateY(180deg)"></div><div class="seg si" style="--a: 300.0deg; width: 38px; height: 15.0px; margin: -7.5px 0 0 -19.0px; transform: rotateX(300.0deg) translateZ(79px) rotateY(180deg)"></div><div class="seg si" style="--a: 310.0deg; width: 38px; height: 15.0px; margin: -7.5px 0 0 -19.0px; transform: rotateX(310.0deg) translateZ(79px) rotateY(180deg)"></div><div class="seg si" style="--a: 320.0deg; width: 38px; height: 15.0px; margin: -7.5px 0 0 -19.0px; transform: rotateX(320.0deg) translateZ(79px) rotateY(180deg)"></div><div class="seg si" style="--a: 330.0deg; width: 38px; height: 15.0px; margin: -7.5px 0 0 -19.0px; transform: rotateX(330.0deg) translateZ(79px) rotateY(180deg)"></div><div class="seg si" style="--a: 340.0deg; width: 38px; height: 15.0px; margin: -7.5px 0 0 -19.0px; transform: rotateX(340.0deg) translateZ(79px) rotateY(180deg)"></div><div class="seg si" style="--a: 350.0deg; width: 38px; height: 15.0px; margin: -7.5px 0 0 -19.0px; transform: rotateX(350.0deg) translateZ(79px) rotateY(180deg)"></div><div class="edge" style="width: 172px; height: 172px; margin: -86px 0 0 -86px; transform: translateX(19.0px) rotateY(90deg); filter: brightness(var(--eR)); background: radial-gradient(circle closest-side, transparent 0 91.3%, #F3D686 91.9%, #C8973B 95.9%, #9C6E22 99%, transparent 100%)"></div><div class="edge" style="width: 172px; height: 172px; margin: -86px 0 0 -86px; transform: translateX(-19.0px) rotateY(-90deg); filter: brightness(var(--eL)); background: radial-gradient(circle closest-side, transparent 0 91.3%, #F3D686 91.9%, #C8973B 95.9%, #9C6E22 99%, transparent 100%)"></div></div>
+<div class="ring r2"><div class="seg so" style="--a: 0.0deg; width: 40px; height: 15.5px; margin: -7.8px 0 0 -20.0px; transform: rotateX(0.0deg) translateZ(82px)"><span class="stone" style="animation-delay: 0.0s"></span></div><div class="seg so" style="--a: 10.0deg; width: 40px; height: 15.5px; margin: -7.8px 0 0 -20.0px; transform: rotateX(10.0deg) translateZ(82px)"><span class="stone" style="animation-delay: 0.6s"></span></div><div class="seg so" style="--a: 20.0deg; width: 40px; height: 15.5px; margin: -7.8px 0 0 -20.0px; transform: rotateX(20.0deg) translateZ(82px)"><span class="stone" style="animation-delay: 1.2s"></span></div><div class="seg so" style="--a: 30.0deg; width: 40px; height: 15.5px; margin: -7.8px 0 0 -20.0px; transform: rotateX(30.0deg) translateZ(82px)"><span class="stone" style="animation-delay: 1.8s"></span></div><div class="seg so" style="--a: 40.0deg; width: 40px; height: 15.5px; margin: -7.8px 0 0 -20.0px; transform: rotateX(40.0deg) translateZ(82px)"><span class="stone" style="animation-delay: 2.4s"></span></div><div class="seg so" style="--a: 50.0deg; width: 40px; height: 15.5px; margin: -7.8px 0 0 -20.0px; transform: rotateX(50.0deg) translateZ(82px)"><span class="stone" style="animation-delay: 3.0s"></span></div><div class="seg so" style="--a: 60.0deg; width: 40px; height: 15.5px; margin: -7.8px 0 0 -20.0px; transform: rotateX(60.0deg) translateZ(82px)"><span class="stone" style="animation-delay: 3.6s"></span></div><div class="seg so" style="--a: 70.0deg; width: 40px; height: 15.5px; margin: -7.8px 0 0 -20.0px; transform: rotateX(70.0deg) translateZ(82px)"><span class="stone" style="animation-delay: 0.0s"></span></div><div class="seg so" style="--a: 80.0deg; width: 40px; height: 15.5px; margin: -7.8px 0 0 -20.0px; transform: rotateX(80.0deg) translateZ(82px)"></div><div class="seg so" style="--a: 90.0deg; width: 40px; height: 15.5px; margin: -7.8px 0 0 -20.0px; transform: rotateX(90.0deg) translateZ(82px)"></div><div class="seg so" style="--a: 100.0deg; width: 40px; height: 15.5px; margin: -7.8px 0 0 -20.0px; transform: rotateX(100.0deg) translateZ(82px)"></div><div class="seg so" style="--a: 110.0deg; width: 40px; height: 15.5px; margin: -7.8px 0 0 -20.0px; transform: rotateX(110.0deg) translateZ(82px)"></div><div class="seg so" style="--a: 120.0deg; width: 40px; height: 15.5px; margin: -7.8px 0 0 -20.0px; transform: rotateX(120.0deg) translateZ(82px)"></div><div class="seg so" style="--a: 130.0deg; width: 40px; height: 15.5px; margin: -7.8px 0 0 -20.0px; transform: rotateX(130.0deg) translateZ(82px)"></div><div class="seg so" style="--a: 140.0deg; width: 40px; height: 15.5px; margin: -7.8px 0 0 -20.0px; transform: rotateX(140.0deg) translateZ(82px)"></div><div class="seg so" style="--a: 150.0deg; width: 40px; height: 15.5px; margin: -7.8px 0 0 -20.0px; transform: rotateX(150.0deg) translateZ(82px)"></div><div class="seg so" style="--a: 160.0deg; width: 40px; height: 15.5px; margin: -7.8px 0 0 -20.0px; transform: rotateX(160.0deg) translateZ(82px)"></div><div class="seg so" style="--a: 170.0deg; width: 40px; height: 15.5px; margin: -7.8px 0 0 -20.0px; transform: rotateX(170.0deg) translateZ(82px)"></div><div class="seg so" style="--a: 180.0deg; width: 40px; height: 15.5px; margin: -7.8px 0 0 -20.0px; transform: rotateX(180.0deg) translateZ(82px)"></div><div class="seg so" style="--a: 190.0deg; width: 40px; height: 15.5px; margin: -7.8px 0 0 -20.0px; transform: rotateX(190.0deg) translateZ(82px)"></div><div class="seg so" style="--a: 200.0deg; width: 40px; height: 15.5px; margin: -7.8px 0 0 -20.0px; transform: rotateX(200.0deg) translateZ(82px)"></div><div class="seg so" style="--a: 210.0deg; width: 40px; height: 15.5px; margin: -7.8px 0 0 -20.0px; transform: rotateX(210.0deg) translateZ(82px)"></div><div class="seg so" style="--a: 220.0deg; width: 40px; height: 15.5px; margin: -7.8px 0 0 -20.0px; transform: rotateX(220.0deg) translateZ(82px)"></div><div class="seg so" style="--a: 230.0deg; width: 40px; height: 15.5px; margin: -7.8px 0 0 -20.0px; transform: rotateX(230.0deg) translateZ(82px)"></div><div class="seg so" style="--a: 240.0deg; width: 40px; height: 15.5px; margin: -7.8px 0 0 -20.0px; transform: rotateX(240.0deg) translateZ(82px)"></div><div class="seg so" style="--a: 250.0deg; width: 40px; height: 15.5px; margin: -7.8px 0 0 -20.0px; transform: rotateX(250.0deg) translateZ(82px)"></div><div class="seg so" style="--a: 260.0deg; width: 40px; height: 15.5px; margin: -7.8px 0 0 -20.0px; transform: rotateX(260.0deg) translateZ(82px)"></div><div class="seg so" style="--a: 270.0deg; width: 40px; height: 15.5px; margin: -7.8px 0 0 -20.0px; transform: rotateX(270.0deg) translateZ(82px)"></div><div class="seg so" style="--a: 280.0deg; width: 40px; height: 15.5px; margin: -7.8px 0 0 -20.0px; transform: rotateX(280.0deg) translateZ(82px)"></div><div class="seg so" style="--a: 290.0deg; width: 40px; height: 15.5px; margin: -7.8px 0 0 -20.0px; transform: rotateX(290.0deg) translateZ(82px)"><span class="stone" style="animation-delay: 0.6s"></span></div><div class="seg so" style="--a: 300.0deg; width: 40px; height: 15.5px; margin: -7.8px 0 0 -20.0px; transform: rotateX(300.0deg) translateZ(82px)"><span class="stone" style="animation-delay: 1.2s"></span></div><div class="seg so" style="--a: 310.0deg; width: 40px; height: 15.5px; margin: -7.8px 0 0 -20.0px; transform: rotateX(310.0deg) translateZ(82px)"><span class="stone" style="animation-delay: 1.8s"></span></div><div class="seg so" style="--a: 320.0deg; width: 40px; height: 15.5px; margin: -7.8px 0 0 -20.0px; transform: rotateX(320.0deg) translateZ(82px)"><span class="stone" style="animation-delay: 2.4s"></span></div><div class="seg so" style="--a: 330.0deg; width: 40px; height: 15.5px; margin: -7.8px 0 0 -20.0px; transform: rotateX(330.0deg) translateZ(82px)"><span class="stone" style="animation-delay: 3.0s"></span></div><div class="seg so" style="--a: 340.0deg; width: 40px; height: 15.5px; margin: -7.8px 0 0 -20.0px; transform: rotateX(340.0deg) translateZ(82px)"><span class="stone" style="animation-delay: 3.6s"></span></div><div class="seg so" style="--a: 350.0deg; width: 40px; height: 15.5px; margin: -7.8px 0 0 -20.0px; transform: rotateX(350.0deg) translateZ(82px)"><span class="stone" style="animation-delay: 0.0s"></span></div><div class="seg si" style="--a: 0.0deg; width: 40px; height: 14.3px; margin: -7.1px 0 0 -20.0px; transform: rotateX(0.0deg) translateZ(75px) rotateY(180deg)"></div><div class="seg si" style="--a: 10.0deg; width: 40px; height: 14.3px; margin: -7.1px 0 0 -20.0px; transform: rotateX(10.0deg) translateZ(75px) rotateY(180deg)"></div><div class="seg si" style="--a: 20.0deg; width: 40px; height: 14.3px; margin: -7.1px 0 0 -20.0px; transform: rotateX(20.0deg) translateZ(75px) rotateY(180deg)"></div><div class="seg si" style="--a: 30.0deg; width: 40px; height: 14.3px; margin: -7.1px 0 0 -20.0px; transform: rotateX(30.0deg) translateZ(75px) rotateY(180deg)"></div><div class="seg si" style="--a: 40.0deg; width: 40px; height: 14.3px; margin: -7.1px 0 0 -20.0px; transform: rotateX(40.0deg) translateZ(75px) rotateY(180deg)"></div><div class="seg si" style="--a: 50.0deg; width: 40px; height: 14.3px; margin: -7.1px 0 0 -20.0px; transform: rotateX(50.0deg) translateZ(75px) rotateY(180deg)"></div><div class="seg si" style="--a: 60.0deg; width: 40px; height: 14.3px; margin: -7.1px 0 0 -20.0px; transform: rotateX(60.0deg) translateZ(75px) rotateY(180deg)"></div><div class="seg si" style="--a: 70.0deg; width: 40px; height: 14.3px; margin: -7.1px 0 0 -20.0px; transform: rotateX(70.0deg) translateZ(75px) rotateY(180deg)"></div><div class="seg si" style="--a: 80.0deg; width: 40px; height: 14.3px; margin: -7.1px 0 0 -20.0px; transform: rotateX(80.0deg) translateZ(75px) rotateY(180deg)"></div><div class="seg si" style="--a: 90.0deg; width: 40px; height: 14.3px; margin: -7.1px 0 0 -20.0px; transform: rotateX(90.0deg) translateZ(75px) rotateY(180deg)"></div><div class="seg si" style="--a: 100.0deg; width: 40px; height: 14.3px; margin: -7.1px 0 0 -20.0px; transform: rotateX(100.0deg) translateZ(75px) rotateY(180deg)"></div><div class="seg si" style="--a: 110.0deg; width: 40px; height: 14.3px; margin: -7.1px 0 0 -20.0px; transform: rotateX(110.0deg) translateZ(75px) rotateY(180deg)"></div><div class="seg si" style="--a: 120.0deg; width: 40px; height: 14.3px; margin: -7.1px 0 0 -20.0px; transform: rotateX(120.0deg) translateZ(75px) rotateY(180deg)"></div><div class="seg si" style="--a: 130.0deg; width: 40px; height: 14.3px; margin: -7.1px 0 0 -20.0px; transform: rotateX(130.0deg) translateZ(75px) rotateY(180deg)"></div><div class="seg si" style="--a: 140.0deg; width: 40px; height: 14.3px; margin: -7.1px 0 0 -20.0px; transform: rotateX(140.0deg) translateZ(75px) rotateY(180deg)"></div><div class="seg si" style="--a: 150.0deg; width: 40px; height: 14.3px; margin: -7.1px 0 0 -20.0px; transform: rotateX(150.0deg) translateZ(75px) rotateY(180deg)"></div><div class="seg si" style="--a: 160.0deg; width: 40px; height: 14.3px; margin: -7.1px 0 0 -20.0px; transform: rotateX(160.0deg) translateZ(75px) rotateY(180deg)"></div><div class="seg si" style="--a: 170.0deg; width: 40px; height: 14.3px; margin: -7.1px 0 0 -20.0px; transform: rotateX(170.0deg) translateZ(75px) rotateY(180deg)"></div><div class="seg si" style="--a: 180.0deg; width: 40px; height: 14.3px; margin: -7.1px 0 0 -20.0px; transform: rotateX(180.0deg) translateZ(75px) rotateY(180deg)"></div><div class="seg si" style="--a: 190.0deg; width: 40px; height: 14.3px; margin: -7.1px 0 0 -20.0px; transform: rotateX(190.0deg) translateZ(75px) rotateY(180deg)"></div><div class="seg si" style="--a: 200.0deg; width: 40px; height: 14.3px; margin: -7.1px 0 0 -20.0px; transform: rotateX(200.0deg) translateZ(75px) rotateY(180deg)"></div><div class="seg si" style="--a: 210.0deg; width: 40px; height: 14.3px; margin: -7.1px 0 0 -20.0px; transform: rotateX(210.0deg) translateZ(75px) rotateY(180deg)"></div><div class="seg si" style="--a: 220.0deg; width: 40px; height: 14.3px; margin: -7.1px 0 0 -20.0px; transform: rotateX(220.0deg) translateZ(75px) rotateY(180deg)"></div><div class="seg si" style="--a: 230.0deg; width: 40px; height: 14.3px; margin: -7.1px 0 0 -20.0px; transform: rotateX(230.0deg) translateZ(75px) rotateY(180deg)"></div><div class="seg si" style="--a: 240.0deg; width: 40px; height: 14.3px; margin: -7.1px 0 0 -20.0px; transform: rotateX(240.0deg) translateZ(75px) rotateY(180deg)"></div><div class="seg si" style="--a: 250.0deg; width: 40px; height: 14.3px; margin: -7.1px 0 0 -20.0px; transform: rotateX(250.0deg) translateZ(75px) rotateY(180deg)"></div><div class="seg si" style="--a: 260.0deg; width: 40px; height: 14.3px; margin: -7.1px 0 0 -20.0px; transform: rotateX(260.0deg) translateZ(75px) rotateY(180deg)"></div><div class="seg si" style="--a: 270.0deg; width: 40px; height: 14.3px; margin: -7.1px 0 0 -20.0px; transform: rotateX(270.0deg) translateZ(75px) rotateY(180deg)"></div><div class="seg si" style="--a: 280.0deg; width: 40px; height: 14.3px; margin: -7.1px 0 0 -20.0px; transform: rotateX(280.0deg) translateZ(75px) rotateY(180deg)"></div><div class="seg si" style="--a: 290.0deg; width: 40px; height: 14.3px; margin: -7.1px 0 0 -20.0px; transform: rotateX(290.0deg) translateZ(75px) rotateY(180deg)"></div><div class="seg si" style="--a: 300.0deg; width: 40px; height: 14.3px; margin: -7.1px 0 0 -20.0px; transform: rotateX(300.0deg) translateZ(75px) rotateY(180deg)"></div><div class="seg si" style="--a: 310.0deg; width: 40px; height: 14.3px; margin: -7.1px 0 0 -20.0px; transform: rotateX(310.0deg) translateZ(75px) rotateY(180deg)"></div><div class="seg si" style="--a: 320.0deg; width: 40px; height: 14.3px; margin: -7.1px 0 0 -20.0px; transform: rotateX(320.0deg) translateZ(75px) rotateY(180deg)"></div><div class="seg si" style="--a: 330.0deg; width: 40px; height: 14.3px; margin: -7.1px 0 0 -20.0px; transform: rotateX(330.0deg) translateZ(75px) rotateY(180deg)"></div><div class="seg si" style="--a: 340.0deg; width: 40px; height: 14.3px; margin: -7.1px 0 0 -20.0px; transform: rotateX(340.0deg) translateZ(75px) rotateY(180deg)"></div><div class="seg si" style="--a: 350.0deg; width: 40px; height: 14.3px; margin: -7.1px 0 0 -20.0px; transform: rotateX(350.0deg) translateZ(75px) rotateY(180deg)"></div><div class="edge" style="width: 164px; height: 164px; margin: -82px 0 0 -82px; transform: translateX(20.0px) rotateY(90deg); filter: brightness(var(--eR)); background: radial-gradient(circle closest-side, transparent 0 90.9%, #F3D686 91.5%, #C8973B 95.7%, #9C6E22 99%, transparent 100%)"></div><div class="edge" style="width: 164px; height: 164px; margin: -82px 0 0 -82px; transform: translateX(-20.0px) rotateY(-90deg); filter: brightness(var(--eL)); background: radial-gradient(circle closest-side, transparent 0 90.9%, #F3D686 91.5%, #C8973B 95.7%, #9C6E22 99%, transparent 100%)"></div></div>
+</div>
+<p class="hint" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0115.5-6.2M21 12a9 9 0 01-15.5 6.2"></path><path d="M18 2v4h-4M6 22v-4h4"></path></svg>Arraste para girar</p>
+</div>
+</div>
+</section>
+
+<section class="sec soft" id="simulador">
+<div class="wrap">
+<div class="head reveal">
+<p class="kicker">Simulador</p>
+<h2 class="h2">Faça uma estimativa do valor do seu ouro</h2>
+<p class="lead">Informe as características da sua peça e descubra uma estimativa de quanto ela pode valer.</p>
+</div>
+<div class="grid2 reveal">
+<div class="panel">
+<div class="field">
+<span class="lbl" id="lbl-kt">Tipo de ouro</span>
+<div class="pills" role="group" aria-labelledby="lbl-kt">
+<button type="button" class="pill" data-k="24" aria-pressed="false">Ouro 24k</button>
+<button type="button" class="pill" data-k="18" aria-pressed="false">18k</button>
+<button type="button" class="pill" data-k="16" aria-pressed="false">16k</button>
+<button type="button" class="pill" data-k="10" aria-pressed="false">10k</button>
+<button type="button" class="pill" data-k="nao" aria-pressed="false">Não sei</button>
+</div>
+</div>
+<div class="field">
+<label class="lbl" for="sim-peso">Peso da peça</label>
+<div class="suf"><input id="sim-peso" class="inp js-peso" type="number" inputmode="decimal" min="0" step="0.01" placeholder="Ex.: 4,5"><span aria-hidden="true">g</span></div>
+</div>
+<div class="field">
+<label class="lbl" for="sim-tipo">Tipo de peça <small>(opcional)</small></label>
+<select id="sim-tipo" class="inp js-tipo"><option value="">Selecione</option><option value="Alianças">Alianças</option><option value="Brincos">Brincos</option><option value="Correntes">Correntes</option><option value="Ouro quebrado">Ouro quebrado</option><option value="Ouro com pedras">Ouro com pedras</option><option value="Moedas">Moedas</option></select>
+</div>
+<p class="err" id="err" role="alert" hidden></p>
+<div class="actions">
+<button type="button" class="btn" id="calc">Calcular estimativa</button>
+<a class="btn btn-line js-wa" href="#" target="_blank" rel="noopener noreferrer">Agendar avaliação</a>
+<p class="small">Não quer simular? O botão acima abre o WhatsApp da VH com os dados que você preencher.</p>
+</div>
+</div>
+
+<div class="panel res" aria-live="polite">
+<div id="resBox" hidden>
+<div class="row"><span>Quilatagem</span><b id="rKarat"></b></div>
+<div class="row"><span>Peso informado</span><b id="rPeso"></b></div>
+<div class="row"><span>Cotação de referência utilizada</span><b id="rCot"></b></div>
+<div class="row"><span>Valor de compra por grama</span><b id="rPg"></b></div>
+<div class="total"><span>Estimativa total da peça</span><b id="rTotal"></b></div>
+<p class="note" id="rNota" hidden></p>
+<a class="btn js-wa" href="#" target="_blank" rel="noopener noreferrer" style="margin-top: 20px">Agendar avaliação com estes dados</a>
+</div>
+<div class="empty" id="emptyBox">
+<p class="h2" style="font-size: 30px; margin: 0">Sua estimativa aparecerá aqui.</p>
+<p style="font-size: 15px; line-height: 1.6">Escolha o tipo de ouro, informe o peso e clique em “Calcular estimativa”.</p>
+</div>
+<p class="disc">Esta é uma estimativa baseada na cotação de referência e nas informações fornecidas. O valor final dependerá da avaliação presencial, da autenticidade, da pureza e das condições da peça.</p>
+</div>
+</div>
+<div class="buy reveal">
+<div class="buy-head"><h3>Valores de compra por grama</h3><span>Usados no cálculo da estimativa · atualizado em <span class="js-precos-data"></span></span></div>
+<div class="buy-grid">
+<div><span>Ouro 24k</span><b data-preco="24"></b></div>
+<div><span>Ouro 18k</span><b data-preco="18"></b></div>
+<div><span>Ouro 16k</span><b data-preco="16"></b></div>
+<div><span>Ouro 10k</span><b data-preco="10"></b></div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="sec" id="cotacao">
+<div class="wrap">
+<div class="head reveal" style="display: flex; justify-content: space-between; align-items: flex-end; gap: 20px; flex-wrap: wrap">
+<div><p class="kicker">Cotação</p><h2 class="h2" style="margin: 0">Valor do ouro hoje</h2></div>
+<span class="tag" id="fonteTag">Carregando cotação…</span>
+</div>
+<div class="tbl reveal">
+<table>
+<thead><tr><th scope="col">Metal</th><th scope="col">Compra (bid) · R$/g</th><th scope="col">Venda (ask) · R$/g</th><th scope="col">Atualizado em</th></tr></thead>
+<tbody>
+<tr><td class="k">Ouro</td><td class="v" data-q="ouro.bid">—</td><td class="v" data-q="ouro.ask">—</td><td class="js-upd">—</td></tr>
+<tr><td class="k">Prata</td><td class="v" data-q="prata.bid">—</td><td class="v" data-q="prata.ask">—</td><td class="js-upd">—</td></tr>
+<tr><td class="k">Platina</td><td class="v" data-q="platina.bid">—</td><td class="v" data-q="platina.ask">—</td><td class="js-upd">—</td></tr>
+</tbody>
+</table>
+</div>
+<p class="qnote">Os valores apresentados são referências de mercado e podem sofrer alterações conforme a cotação internacional, o câmbio e os critérios de avaliação da empresa.</p>
+</div>
+</section>
+
+<section class="sec soft" id="agendamento">
+<div class="wrap grid2" style="gap: 64px; align-items: start">
+<div class="reveal">
+<p class="kicker">Agendamento</p>
+<h2 class="h2">Transforme seu ouro em dinheiro.</h2>
+<p class="lead">Já fez sua simulação? Agora agende uma avaliação especializada para descobrir o valor real das suas peças.</p>
+</div>
+<div class="panel reveal">
+<div class="fields">
+<div class="full"><label class="lbl" for="ag-nome">Nome</label><input id="ag-nome" class="inp" type="text" autocomplete="name" placeholder="Seu nome"></div>
+<div><label class="lbl" for="ag-tipo">Tipo de peça</label><select id="ag-tipo" class="inp js-tipo"><option value="">Selecione</option><option value="Alianças">Alianças</option><option value="Brincos">Brincos</option><option value="Correntes">Correntes</option><option value="Ouro quebrado">Ouro quebrado</option><option value="Ouro com pedras">Ouro com pedras</option><option value="Moedas">Moedas</option></select></div>
+<div><label class="lbl" for="ag-peso">Peso aproximado <small>(g)</small></label><input id="ag-peso" class="inp js-peso" type="number" inputmode="decimal" min="0" step="0.01" placeholder="Ex.: 4,5"></div>
+<div><label class="lbl" for="ag-kt">Quilatagem <small>(caso saiba)</small></label>
+<select id="ag-kt" class="inp">
+<option value="">Selecione</option>
+<option value="24">Ouro 24k</option>
+<option value="18">Ouro 18k</option>
+<option value="16">Ouro 16k</option>
+<option value="10">Ouro 10k</option>
+<option value="nao">Não sei informar</option>
+</select></div>
+<div><label class="lbl" for="ag-dia">Melhor dia</label><input id="ag-dia" class="inp" type="date"></div>
+<div class="full"><label class="lbl" for="ag-per">Melhor horário</label>
+<select id="ag-per" class="inp">
+<option value="">Selecione</option>
+<option value="Manhã">Manhã</option>
+<option value="Tarde">Tarde</option>
+<option value="Fim de tarde">Fim de tarde</option>
+<option value="Qualquer horário">Qualquer horário</option>
+</select></div>
+</div>
+<a class="btn js-wa" href="#" target="_blank" rel="noopener noreferrer" style="width: 100%">Agendar minha avaliação</a>
+<p class="small">Abre o WhatsApp da VH com a mensagem pronta.</p>
+</div>
+</div>
+</section>
+
+<section class="sec" id="vantagens">
+<div class="wrap">
+<div class="head reveal"><p class="kicker">Por que nós</p><h2 class="h2">Por que vender seu ouro conosco?</h2></div>
+<div class="why reveal">
+<div><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="M20 20l-4.8-4.8"></path></svg><h3>Avaliação especializada</h3><p>Análise cuidadosa da pureza e do peso do ouro.</p></div>
+<div><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"></path><circle cx="12" cy="12" r="3"></circle></svg><h3>Transparência</h3><p>Informações claras sobre os critérios utilizados na avaliação.</p></div>
+<div><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 10h18M8 3v4M16 3v4"></path></svg><h3>Praticidade</h3><p>Atendimento facilitado para quem deseja vender suas peças.</p></div>
+<div><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z"></path></svg><h3>Segurança</h3><p>Atendimento personalizado durante todo o processo.</p></div>
+</div>
+</div>
+</section>
+
+<footer class="ftr">
+<div class="wrap">
+<div class="ftr-in">
+<div style="max-width: 320px">
+<a class="logo" href="#inicio">vh<span>.</span>compradeouro</a>
+<p style="margin-top: 10px">Especialistas na compra de ouro.</p>
+<a class="btn js-wa" href="#" target="_blank" rel="noopener noreferrer" style="margin-top: 20px">Falar no WhatsApp</a>
+</div>
+<div>
+<h4>Contato</h4>
+<ul>
+<li>WhatsApp · <a class="js-wa" href="#" target="_blank" rel="noopener noreferrer">(61) 98448-9331</a></li>
+<li>Telefone · <a href="tel:+5561984489331">(61) 98448-9331</a></li>
+<li><a href="mailto:vhcomproouro@gmail.com">vhcomproouro@gmail.com</a></li>
+<li><a href="https://instagram.com/vh.compradeouro" target="_blank" rel="noopener noreferrer">@vh.compradeouro</a></li>
+<li>Atendimento na Candangolândia e no Núcleo Bandeirante — Brasília/DF</li>
+</ul>
+</div>
+</div>
+<p class="legal">As cotações exibidas são referências de mercado e podem variar conforme a cotação internacional, o câmbio e os critérios de avaliação da empresa. As estimativas do simulador não são oferta de compra; o valor final depende da avaliação presencial. © vh.compradeouro</p>
+</div>
+</footer>
+
+<a class="fab js-wa" href="#" target="_blank" rel="noopener noreferrer" aria-label="Falar com a VH no WhatsApp">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20l1.3-3.9A8 8 0 1112 20a8 8 0 01-3.9-1L4 20z"></path></svg>
+</a>
+</div>
+<script src="config.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

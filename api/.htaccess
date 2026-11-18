@@ -1,0 +1,7 @@
+# Bloqueia acesso direto a tudo dentro de /api, exceto cotacao.php
+<FilesMatch ".*">
+  Require all denied
+</FilesMatch>
+<Files "cotacao.php">
+  Require all granted
+</Files>

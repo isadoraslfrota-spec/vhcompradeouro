@@ -1,0 +1,6 @@
+# Chave secreta da GoldAPI: fica só no servidor
+api/chave.php
+# Cache gerado pelo servidor
+api/cache/*.json
+api/cache/.trava
+.DS_Store

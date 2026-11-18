@@ -1,0 +1,5 @@
+# Não mostrar arquivos internos do repositório para visitantes
+<FilesMatch "^(README\.md|\.gitignore)$">
+  Require all denied
+</FilesMatch>
+RedirectMatch 404 /\.git
