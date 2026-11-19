@@ -23,10 +23,10 @@ window.VH_CONFIG = {
 
   // Cotação RESERVA: aparece só se a busca automática falhar.
   cotacaoReserva: {
-    fonte: "Kitco (spot) — atualização manual",
-    atualizadoEm: "18/11/2026 às 11:07",
-    ouro:    { bid: 705.59, ask: 705.97 },
-    prata:   { bid: 8.52,   ask: 8.56 },
-    platina: { bid: 256.59, ask: 258.45 }
+    fonte: "ValorFinal / Cotação do Dia (mercado)",
+    atualizadoEm: "19/11/2026 às 17:19",
+    ouro:    { bid: 700.95, ask: 700.95 },
+    prata:   { bid: 8.59,   ask: 8.59 },
+    platina: { bid: 256.76, ask: 256.76 }
   }
 };
